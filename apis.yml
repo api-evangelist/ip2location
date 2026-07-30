@@ -1,4 +1,16 @@
 aid: ip2location
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ip2location.png
 name: IP2Location
 description: "IP geolocation web service to get more than 55 parameters"
 url: https://www.ip2location.com/web-service/ip2location

@@ -39,7 +39,6 @@ apis:
   - name: IP2Location
     description: "IP geolocation web service to get more than 55 parameters"
     humanURL: https://www.ip2location.com/web-service/ip2location
-    baseURL: https://www.ip2location.com/web-service/ip2location
     tags:
       - Geocoding
     properties:

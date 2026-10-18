@@ -68,10 +68,28 @@ edges:
   detected: '2026-10-15'
   detected_by: mirror-platform-listings.py
   category: WordPress plugin
+- partner_name: Slack (own)
+  partner: slack
+  partner_match: mirror
+  mirror_match: domain+name-among-holders
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://slack.com/marketplace/A019UQJ6W5S-ip2proxy
+  mirror_of: slack/integrations/slack-integration-edges.yml
+  apps:
+  - IP2Proxy
+  listing_count: 1
+  detected: '2026-10-18'
+  detected_by: mirror-platform-listings.py
+  category: Slack app
 method: searched
 checked:
 - https://github.com/PipedreamHQ/pipedream/tree/94800dd6de6640b942c65ea7ee655f71ac56d438/components/
 - https://zapier.com/api/v4/apps/
+- slack/integrations/slack-integration-edges.yml
 - wordpress/integrations/wordpress-integration-edges.yml
 source:
 - https://github.com/PipedreamHQ/pipedream/tree/94800dd6de6640b942c65ea7ee655f71ac56d438/components/
